@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="lRzd?QB9l8-YLfeMljX)" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="vn$9;5B[9dpagg/A%$T9"><field name="LEDS">`
+        # # # # . 
+        # # . . . 
+        # . # . . 
+        # . . # . 
+        . . . . #
+        `</field><next><block type="device_plot" id="H/b[f;lAg!~^`kT?6,n."><value name="x"><shadow type="math_number_minmax" id="4dY6TBYWzN6Q|wlf_a%c"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">0</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="S_sp^z4|#8#+e;i]!vD{"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_unplot" id="7m{4+-WMA7WfH/=-{zKg"><value name="x"><shadow type="math_number_minmax" id="I6rx/h#|yn1st/D!eKAJ"><mutation min="0" max="4" label="X" precision="1"></mutation><field name="SLIDER">0</field></shadow></value><value name="y"><shadow type="math_number_minmax" id=":AFK-q)rCVYAmnw.dOY)"><mutation min="0" max="4" label="Y" precision="1"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_print_message" id="%hamm}5~:%Lrxqu22lj@"><value name="text"><shadow type="text" id="(1s)YF3[.7eae0{rX6qf"><field name="TEXT">Hello!</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="FCS(}Z]=m^foP`dS6L6R" x="322" y="128"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="7sL.JL-0+cM1/Si9R/Lh"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
